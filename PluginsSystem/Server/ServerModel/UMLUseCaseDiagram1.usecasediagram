@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm13="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="a0a6e6e9-e589-409f-a2a1-f00247aaffec" name="UMLUseCaseDiagram1" linkedPackageId="ea7ef0f0-ae75-4c67-8888-da28d840f36a" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <package Id="ea7ef0f0-ae75-4c67-8888-da28d840f36a" name="ServerModel">
+    <elementDefinition Id="4eb11fc7-8f13-46bc-a5ac-afe6c8a73668" />
+    <profileInstances>
+      <packageHasProfileInstances Id="170189b0-2d79-424f-a089-39f78db98026">
+        <profileInstance Id="9a5bdffd-3d5c-4856-938d-1af400fcaebb" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5bceb756-0b52-415c-934f-b47fc5a8950d">
+        <profileInstance Id="8d6cb906-f3a5-4396-8ecd-14bd41e41101" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

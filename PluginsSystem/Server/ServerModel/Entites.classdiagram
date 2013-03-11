@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="bbcd5af7-e0b7-4c96-8c15-d406dd6549df" name="Entites" linkedPackageId="91d0691b-a01d-4e18-836e-1971eea3d11e" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="122737c5-4b0c-4461-bb04-bb2defe0d87b">
+      <profileInstance Id="e735a576-9bb8-414d-8e06-049174395444" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ecb16cf2-1766-4f5e-8b26-5babf07a8086">
+      <profileInstance Id="a4e4c00b-fe0d-49cf-809d-5ce19b92ec39" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="feaa0bd9-0576-4203-8039-10f6d6c95c84" name="IPlugin" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f83a88f-a986-4a03-9c67-04f680f42d72" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="91d0691b-a01d-4e18-836e-1971eea3d11e" name="ServerModel">
+    <elementDefinition Id="4eb11fc7-8f13-46bc-a5ac-afe6c8a73668" />
+  </package>
+</logicalClassDesignerModel>

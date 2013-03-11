@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Entites">
+  <logicalClassDesignerModelMoniker Id="bbcd5af7-e0b7-4c96-8c15-d406dd6549df" />
+  <nestedChildShapes>
+    <interfaceShape Id="d67f1496-3a49-405f-bca6-c0e8d431e85c" absoluteBounds="2.625, 0.5, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="207, 223, 191">
+      <interfaceMoniker Id="feaa0bd9-0576-4203-8039-10f6d6c95c84" LastKnownName="IPlugin" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="f16ede49-1a62-44cc-80d5-8974dd21539c" absoluteBounds="2.6399999999999997, 0.89000000000000012, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="c00315fc-4eac-43f8-93db-0c463acd3183" absoluteBounds="2.6399999999999997, 1.1011718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
