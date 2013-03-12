@@ -1,4 +1,7 @@
-c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll
-c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.pdb
-c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\obj\Debug\PluginsCore.dll
-c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\obj\Debug\PluginsCore.pdb
+C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.XML
+C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll
+C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.pdb
+C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.CodeAnalysisLog.xml
+C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.lastcodeanalysissucceeded
+C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\obj\Debug\PluginsCore.dll
+C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\obj\Debug\PluginsCore.pdb

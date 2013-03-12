@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using PluginsCore.MEFComponents;
+using System.Reflection;
 
 namespace PluginsCore
 {
@@ -21,42 +22,9 @@ namespace PluginsCore
         }
 
         /// <summary>
-        /// Автор плагина
+        /// Сборка плагина
         /// </summary>
-        string Author
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Название сборки
-        /// </summary>
-        string AssemblyName
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Версия сборки
-        /// </summary>
-        string AssemblyVersion
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Идентификационный ключ сборки
-        /// </summary>
-        string AssemblyKey
-        {
-            get;
-            set;
-        }
-
-        object ThroughData
+        Assembly PluginAssembly
         {
             get;
             set;
@@ -66,5 +34,12 @@ namespace PluginsCore
         /// Инициализация экземпляра
         /// </summary>
         void Initialize();
+
+        /// <summary>
+        /// Обработка данных
+        /// </summary>
+        /// <param name="data">Данные для обработки</param>
+        /// <returns>Обработанные данные</returns>
+        object DataProcessing(object data);
     }
 }

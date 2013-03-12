@@ -21,6 +21,9 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\PluginsCore.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +32,12 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -41,11 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ObjectModel\Interfaces\IPluginMetadata.cs" />
+    <Compile Include="ObjectModel\Logger\Logger.cs" />
     <Compile Include="ObjectModel\MEFComponents\IPluginImportAttribute.cs" />
     <Compile Include="ObjectModel\MEFComponents\IPluginExportAttribute.cs" />
     <Compile Include="ObjectModel\Interfaces\IPlugin.cs" />
-    <Compile Include="Logger.cs" />
+    <Compile Include="ObjectModel\Settings\Settings.cs" />
+    <Compile Include="ObjectModel\Settings\ValidationResult.cs" />
     <Compile Include="PluginsContainer.cs" />
     <Compile Include="ObjectModel\MEFComponents\PluginType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,7 +65,6 @@
     <Folder Include="ObjectModel\Database\" />
     <Folder Include="ObjectModel\GUI\" />
     <Folder Include="ObjectModel\Security\" />
-    <Folder Include="ObjectModel\Settings\" />
     <Folder Include="Plugins\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

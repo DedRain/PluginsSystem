@@ -5,6 +5,9 @@ using System.Text;
 
 namespace PluginsCore
 {
+    /// <summary>
+    /// Контейнер констант
+    /// </summary>
     public class _Consts
     {
     }

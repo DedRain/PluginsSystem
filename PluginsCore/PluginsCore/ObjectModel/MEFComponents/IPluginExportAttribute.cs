@@ -13,6 +13,10 @@ namespace PluginsCore.MEFComponents
     [AttributeUsage(AttributeTargets.All, AllowMultiple = true, Inherited = false)]
     public class IPluginExportAttribute : ExportAttribute
     {
+        /// <summary>
+        /// Конструктор
+        /// </summary>
+        /// <param name="type">Тип интерфейса который реализует плагин</param>
         public IPluginExportAttribute(Type type)
             : base(type)
         {
