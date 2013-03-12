@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6514849a-2d59-448f-a88c-3ebd01d4106c" name="adushelubov@DEV08 2013-03-07 13:43:52" runUser="WSS\adushelubov" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="da9d052f-18f4-4be3-8cdf-aa983ac886ec">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="adushelubov_DEV08 2013-03-07 13_43_52">
+      <DeploymentItem filename="C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-07T13:43:52.6242529+04:00" queuing="2013-03-07T13:43:53.3924839+04:00" start="2013-03-07T13:43:53.5033729+04:00" finish="2013-03-07T13:44:26.3714719+04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="2" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEV08" outcome="Error" timestamp="2013-03-07T13:44:26.3704729+04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCore" storage="c:\users\adushelubov\documents\visual studio 2010\projects\pluginscore\unittesting\bin\debug\unittesting.dll" id="61526077-1894-0bfc-fbe3-5a0b1509afe4">
+      <Execution id="065e96d6-24a3-40dc-b922-a18adecdaf85" />
+      <TestMethod codeBase="C:/Users/adushelubov/documents/visual studio 2010/Projects/PluginsCore/UnitTesting/bin/Debug/UnitTesting.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.CommonTestCore, UnitTesting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCore" />
+    </UnitTest>
+    <OrderedTest name="orderedtest1" storage="c:\users\adushelubov\documents\visual studio 2010\projects\pluginscore\unittesting\orderedtest1.orderedtest" id="49371313-e213-4c46-984f-3724815646cc">
+      <Execution id="1fba615a-a942-42c5-af33-898693cdf98b" />
+    </OrderedTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="61526077-1894-0bfc-fbe3-5a0b1509afe4" executionId="065e96d6-24a3-40dc-b922-a18adecdaf85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry isTransparent="false" testId="49371313-e213-4c46-984f-3724815646cc" executionId="1fba615a-a942-42c5-af33-898693cdf98b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="065e96d6-24a3-40dc-b922-a18adecdaf85" testId="61526077-1894-0bfc-fbe3-5a0b1509afe4" testName="TestCore" computerName="DEV08" duration="00:00:32.7711960" startTime="2013-03-07T13:43:53.6002759+04:00" endTime="2013-03-07T13:44:26.3714719+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="065e96d6-24a3-40dc-b922-a18adecdaf85">
+    </UnitTestResult>
+    <TestResultAggregation executionId="1fba615a-a942-42c5-af33-898693cdf98b" testId="49371313-e213-4c46-984f-3724815646cc" testName="orderedtest1" computerName="DEV08" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fba615a-a942-42c5-af33-898693cdf98b">
+    </TestResultAggregation>
+  </Results>
+</TestRun>

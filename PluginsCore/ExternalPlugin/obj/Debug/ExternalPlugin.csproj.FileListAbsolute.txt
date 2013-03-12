@@ -1,0 +1,7 @@
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\bin\Debug\ExternalPlugin.dll
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\bin\Debug\ExternalPlugin.pdb
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\bin\Debug\PluginsCore.dll
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\bin\Debug\PluginsCore.pdb
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.dll
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.pdb
+C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.csprojResolveAssemblyReference.cache

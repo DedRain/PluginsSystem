@@ -1,0 +1,8 @@
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\UnitTesting.dll
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\UnitTesting.pdb
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\obj\Debug\UnitTesting.dll
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\obj\Debug\UnitTesting.pdb
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\obj\Debug\UnitTesting.csprojResolveAssemblyReference.cache
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\PluginsCore.pdb
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\OrderedTest1.orderedtest
+c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\PluginsCore.dll
