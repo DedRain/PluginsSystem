@@ -5,3 +5,10 @@ C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCo
 C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.lastcodeanalysissucceeded
 C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\obj\Debug\PluginsCore.dll
 C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\obj\Debug\PluginsCore.pdb
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\obj\Debug\PluginsCore.pdb
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.XML
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.pdb
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.CodeAnalysisLog.xml
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.lastcodeanalysissucceeded
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\obj\Debug\PluginsCore.dll

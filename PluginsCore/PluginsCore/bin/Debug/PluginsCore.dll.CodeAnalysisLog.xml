@@ -2,11 +2,11 @@
 <?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="10.0">
  <Targets>
-  <Target Name="C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll">
+  <Target Name="C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll">
    <Modules>
     <Module Name="pluginscore.dll">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2013-03-11 15:40:06Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2013-03-14 12:18:45Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'PluginsCore.dll' with a strong name key.</Issue>
       </Message>
      </Messages>

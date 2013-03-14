@@ -1,0 +1,4 @@
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\UIMaket\bin\UIMaket.dll
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\UIMaket\bin\UIMaket.pdb
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\UIMaket\obj\Debug\UIMaket.dll
+C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\UIMaket\obj\Debug\UIMaket.pdb

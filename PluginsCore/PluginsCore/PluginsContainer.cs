@@ -29,6 +29,7 @@ namespace PluginsCore
                     _PluginsCatalog = new AggregateCatalog();
 
                     DirectoryCatalog catalog = new DirectoryCatalog(Settings.PluginsDirectory);
+                    IEnumerable<string> dirs = Directory.EnumerateDirectories(Settings.PluginsDirectory);
                     DirectoryInfo info = new DirectoryInfo(Settings.PluginsDirectory);
                     DirectoryInfo[] childs = info.GetDirectories();
 
@@ -68,11 +69,11 @@ namespace PluginsCore
             }
         }
 
-        private Dictionary<string,IPlugin> _PluginsMap;
+        private Dictionary<string, IPlugin> _PluginsMap;
         /// <summary>
         /// Карта плагинов
         /// </summary>
-        public Dictionary<string,IPlugin> PluginsMap
+        public Dictionary<string, IPlugin> PluginsMap
         {
             get { return _PluginsMap; }
             set { _PluginsMap = value; }

@@ -4,16 +4,20 @@
         <name>PluginsCore</name>
     </assembly>
     <members>
-        <member name="T:PluginsCore.MEFComponents.IPluginImportAttribute">
+        <member name="T:PluginsCore.ValidationResult">
             <summary>
-            Аттрибут импорта плагина
+            Результат применения настроек
             </summary>
         </member>
-        <member name="M:PluginsCore.MEFComponents.IPluginImportAttribute.#ctor(System.Type)">
+        <member name="P:PluginsCore.ValidationResult.Result">
             <summary>
-            Конструктор
+            Результат
             </summary>
-            <param name="type">Тип интерфейса который реализует плагин</param>
+        </member>
+        <member name="P:PluginsCore.ValidationResult.Message">
+            <summary>
+            Информация об ошибках
+            </summary>
         </member>
         <member name="T:PluginsCore.PluginType">
             <summary>
@@ -50,12 +54,45 @@
             Пользовательский плагин
             </summary>
         </member>
+        <member name="T:PluginsCore._Consts">
+            <summary>
+            Контейнер констант
+            </summary>
+        </member>
+        <member name="T:PluginsCore.MEFComponents.IPluginExportAttribute">
+            <summary>
+            Аттрибут экспорта плагина
+            </summary>
+        </member>
+        <member name="M:PluginsCore.MEFComponents.IPluginExportAttribute.#ctor(System.Type)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="type">Тип интерфейса который реализует плагин</param>
+        </member>
+        <member name="T:PluginsCore.Logger.Logger">
+            <summary>
+            Функционал логирования
+            </summary>
+        </member>
+        <member name="M:PluginsCore.Logger.Logger.HandleEvent(System.String)">
+            <summary>
+            Запись события в базу
+            </summary>
+            <param name="eventText">Текст события</param>
+        </member>
+        <member name="M:PluginsCore.Logger.Logger.HandleException(System.Exception)">
+            <summary>
+            Запись ошибки в базу
+            </summary>
+            <param name="ex">Ошибка</param>
+        </member>
         <member name="T:PluginsCore.PluginsContainer">
             <summary>
             Класс - контейнер предоставляющий коллекцию плагинов
             </summary>
         </member>
-        <member name="M:PluginsCore.PluginsContainer.GetPlugins``1(PluginsCore.PluginType)">
+        <member name="M:PluginsCore.PluginsContainer.GetPlugin``1(PluginsCore.PluginType)">
             <summary>
             Возвращает плагины соответствующего типа
             </summary>
@@ -85,33 +122,6 @@
         <member name="P:PluginsCore.PluginsContainer.Plugins">
             <summary>
             Коллекция плагинов
-            </summary>
-        </member>
-        <member name="T:PluginsCore.IPlugin">
-            <summary>
-            Плагин
-            </summary>
-        </member>
-        <member name="M:PluginsCore.IPlugin.Initialize">
-            <summary>
-            Инициализация экземпляра
-            </summary>
-        </member>
-        <member name="M:PluginsCore.IPlugin.DataProcessing(System.Object)">
-            <summary>
-            Обработка данных
-            </summary>
-            <param name="data">Данные для обработки</param>
-            <returns>Обработанные данные</returns>
-        </member>
-        <member name="P:PluginsCore.IPlugin.PluginType">
-            <summary>
-            Тип плагина
-            </summary>
-        </member>
-        <member name="P:PluginsCore.IPlugin.PluginAssembly">
-            <summary>
-            Сборка плагина
             </summary>
         </member>
         <member name="T:PluginsCore.Settings">
@@ -166,53 +176,43 @@
             Url сервера обновлений
             </summary>
         </member>
-        <member name="T:PluginsCore.MEFComponents.IPluginExportAttribute">
+        <member name="T:PluginsCore.MEFComponents.IPluginImportAttribute">
             <summary>
-            Аттрибут экспорта плагина
+            Аттрибут импорта плагина
             </summary>
         </member>
-        <member name="M:PluginsCore.MEFComponents.IPluginExportAttribute.#ctor(System.Type)">
+        <member name="M:PluginsCore.MEFComponents.IPluginImportAttribute.#ctor(System.Type)">
             <summary>
             Конструктор
             </summary>
             <param name="type">Тип интерфейса который реализует плагин</param>
         </member>
-        <member name="T:PluginsCore._Consts">
+        <member name="T:PluginsCore.IPlugin">
             <summary>
-            Контейнер констант
+            Плагин
             </summary>
         </member>
-        <member name="T:PluginsCore.ValidationResult">
+        <member name="M:PluginsCore.IPlugin.Initialize">
             <summary>
-            Результат применения настроек
+            Инициализация экземпляра
             </summary>
         </member>
-        <member name="P:PluginsCore.ValidationResult.Result">
+        <member name="M:PluginsCore.IPlugin.DataProcessing(System.Object)">
             <summary>
-            Результат
+            Обработка данных
+            </summary>
+            <param name="data">Данные для обработки</param>
+            <returns>Обработанные данные</returns>
+        </member>
+        <member name="P:PluginsCore.IPlugin.PluginType">
+            <summary>
+            Тип плагина
             </summary>
         </member>
-        <member name="P:PluginsCore.ValidationResult.Message">
+        <member name="P:PluginsCore.IPlugin.PluginAssembly">
             <summary>
-            Информация об ошибках
+            Сборка плагина
             </summary>
-        </member>
-        <member name="T:PluginsCore.Logger.Logger">
-            <summary>
-            Функционал логирования
-            </summary>
-        </member>
-        <member name="M:PluginsCore.Logger.Logger.HandleEvent(System.String)">
-            <summary>
-            Запись события в базу
-            </summary>
-            <param name="eventText">Текст события</param>
-        </member>
-        <member name="M:PluginsCore.Logger.Logger.HandleException(System.Exception)">
-            <summary>
-            Запись ошибки в базу
-            </summary>
-            <param name="ex">Ошибка</param>
         </member>
     </members>
 </doc>

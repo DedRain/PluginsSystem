@@ -43,7 +43,7 @@ namespace PluginsCore
             get 
             {
                 if(string.IsNullOrEmpty(_PluginsDirectory))
-                    _PluginsDirectory = @"C:\Users\adushelubov\Documents\visual studio 2010\Projects\PluginsCore\PluginsCore\Plugins";
+                    _PluginsDirectory = @"C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\Plugins";
                 return _PluginsDirectory;
             }
             set { _PluginsDirectory = value; }
