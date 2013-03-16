@@ -11,20 +11,20 @@
         <table width="100%" border="0" cellpadding="0" cellspacing="0">
             <tr>
                 <td>
-                    <div align="right" style="background-color:Gray">
+                    <div align="right" style="background-color: Gray">
                         <input type="text" name="CurrentUserLogin" value="CurrentUser" readonly="readonly" />
                         <input type="button" name="LogOut" value="LogOut" />
                     </div>
                 </td>
             </tr>
             <tr>
-                <td style="padding-top: 20px; background-color:Green;">
+                <td style="padding-top: 20px; background-color: Green;">
                     <ul>
-                        <li>
-                        <input type="button" name="Главная" value="Главная" style="padding-right:1px;padding-left:1px"/>
+                        <li style="display:table-cell;list-style-type: none;">
+                            <a type="text/asp" href="WebForm1.aspx" title="Главная">Главная</a>
                         </li>
-                        <li>
-                        <input type="button" name="Настройки" value="Настройки" style="padding-right:1px;padding-left:1px" />
+                        <li style="display:table-cell; list-style-type: none;">
+                            <a type="text/asp" href="WebForm1.aspx" title="Главная">Настройки</a>
                         </li>
                     </ul>
                 </td>
@@ -42,7 +42,7 @@
                                                 <table>
                                                     <tr>
                                                         <th>
-                                                            <input type="checkbox" name="namecheck" value="False" style="visibility:hidden"/>
+                                                            <input type="checkbox" name="namecheck" value="False" style="visibility: hidden;" />
                                                         </th>
                                                         <th>
                                                             Название
@@ -57,8 +57,8 @@
                                         <tr>
                                             <td>
                                                 <div style="height: 400px; overflow: auto">
-                                                    <table border="0" cellpadding="1" cellspacing="1">
-                                                        <tr>
+                                                    <table>
+                                                        <tr style="cursor:pointer">
                                                             <td>
                                                                 <input type="checkbox" name="namecheck" value="False" />
                                                             </td>

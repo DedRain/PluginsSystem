@@ -5,3 +5,5 @@ C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\obj\
 C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.csproj.GenerateResource.Cache
 C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.exe
 C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.exe
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.pdb

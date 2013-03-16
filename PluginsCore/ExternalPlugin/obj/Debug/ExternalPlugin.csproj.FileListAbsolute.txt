@@ -5,3 +5,11 @@ c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalP
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.dll
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.pdb
 C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.csprojResolveAssemblyReference.cache
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\ExternalPlugin.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\ExternalPlugin.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\PluginsCore.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\PluginsCore.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\PluginsCore.xml

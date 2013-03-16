@@ -18,18 +18,21 @@ namespace ExternalPlugin
     [IPluginExport(typeof(IPlugin))]
     public class Logger : ILogger
     {
-        private bool __init_CurrentAssembly;
-        private Assembly _CurrentAssembly;
-        public Assembly CurrentAssembly
+        private bool __init_PluginAssembly;
+        private Assembly _PluginAssembly;
+        public Assembly PluginAssembly
         {
             get
             {
-                if (!__init_CurrentAssembly)
+                if (!__init_PluginAssembly)
                 {
-                    _CurrentAssembly = Assembly.GetAssembly(this.GetType());
-                    __init_CurrentAssembly = true;
+                    _PluginAssembly = Assembly.GetAssembly(this.GetType());
+                    __init_PluginAssembly = true;
                 }
-                return _CurrentAssembly;
+                return _PluginAssembly;
+            }
+            set
+            {
             }
         }
 
@@ -61,6 +64,11 @@ namespace ExternalPlugin
 
         public void Initialize()
         {
+        }
+
+        public object DataProcessing(object data)
+        {
+            return null;
         }
     }
 }

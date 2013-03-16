@@ -6,3 +6,11 @@ c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesti
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\PluginsCore.pdb
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\OrderedTest1.orderedtest
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\PluginsCore.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\PluginsCore.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\PluginsCore.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\PluginsCore.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\obj\Debug\UnitTesting.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\obj\Debug\UnitTesting.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\UnitTesting.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\UnitTesting.pdb

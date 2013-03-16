@@ -2,3 +2,8 @@ C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\UIMaket\bi
 C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\UIMaket\bin\UIMaket.pdb
 C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\UIMaket\obj\Debug\UIMaket.dll
 C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\UIMaket\obj\Debug\UIMaket.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UIMaket\bin\UIMaket.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UIMaket\bin\UIMaket.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UIMaket\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UIMaket\obj\Debug\UIMaket.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UIMaket\obj\Debug\UIMaket.pdb
