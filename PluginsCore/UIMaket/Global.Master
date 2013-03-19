@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="Css/MasterPage.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -14,21 +15,25 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0">
                 <tr>
                     <td>
-                        <div align="right" style="background-color: Gray">
+                        <div align="right" class="statusPanel">
                             <input type="text" name="CurrentUserLogin" value="CurrentUser" readonly="readonly" />
                             <input type="button" name="LogOut" value="LogOut" />
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding-top: 20px; background-color: Green;">
-                        <ul style="height: 50px; display: block; list-style-type: disc;">
-                            <li style="display: inline-block; list-style-type: none;"><a type="text/asp" href="WebForm1.aspx"
-                                title="Главная" style="border-width: thin; display: block; height: 50px; border-style: groove;
-                                text-align: center; text-decoration: none;">Главная</a> </li>
-                            <li style="display: inline-block; list-style-type: none;"><a type="text/asp" href="WebForm1.aspx"
-                                title="Настройки" style="border-width: thin; display: block; height: 50px; border-style: groove;
-                                text-align: center; text-decoration: none;">Настройки</a> </li>
+                    <td class="toolbar">
+                        <ul class="toolbarButtonsContainer">
+                            <li class="toolbarButtonContainer_p">
+                                <div class="toolbarButtonContainer_c">
+                                    <a type="text/asp" href="WebForm1.aspx" title="Главная" class="toolbarButton">Главная</a>
+                                </div>
+                            </li>
+                            <li class="toolbarButtonContainer_p">
+                                <div class="toolbarButtonContainer_c">
+                                    <a type="text/asp" href="WebForm1.aspx" title="Настройки" class="toolbarButton">Настройки</a>
+                                </div>
+                            </li>
                         </ul>
                     </td>
                 </tr>

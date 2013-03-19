@@ -5,13 +5,14 @@
 {
     border-style: outset;
     border-collapse:collapse;
+    table-layout:fixed;
 }
 
 /*Заголовок*/
 .pluginsTableHeader
 {
     background-color: #C0C0C0;
-    display: block;
+    display:block;
 }
 .pluginsTableHeaderRow
 {
@@ -30,6 +31,7 @@
 {
     display: table-cell;
     width:50%;
+	overflow:hidden;
 }
 
 /*Тело*/

@@ -1,12 +1,43 @@
-﻿body {
+﻿body
+{
 }
 
 .statusPanel
 {
-    background-color: Gray
+    background-color: Gray;
 }
 
-.toolBarButton
+.currentUserControl
 {
-    
+}
+
+.toolbar
+{
+    padding-top: 20px;
+    background-color: Green;
+}
+
+.toolbarButtonsContainer
+{
+    height: 50px;
+    display: block;
+    list-style-type: disc;
+}
+.toolbarButtonContainer_p
+{
+    display: inline-block;
+    list-style-type: none;
+}
+.toolbarButtonContainer_c
+{
+    display:table-cell;
+    border-width: thin;
+    height: 50px;
+    border-style: groove;
+    vertical-align:middle;
+}
+
+.toolbarButton
+{
+    text-decoration: none;
 }

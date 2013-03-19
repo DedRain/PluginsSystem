@@ -32,7 +32,7 @@
                                             <input type="checkbox" name="namecheck" value="False" />
                                         </td>
                                         <td class="pluginsTableCellCommon" headers="2">
-                                            фывфыв
+                                            фывфыв3qg3v4t234tv34t234tv234t234t2g3t42g34t23t4234534563h45635463h4y34y345ty345yh3456mn345y345cfgd5t345t345734l76'7
                                         </td>
                                         <td class="pluginsTableCellCommon" headers="3">
                                             пфй
