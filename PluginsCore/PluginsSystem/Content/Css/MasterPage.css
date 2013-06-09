@@ -1,0 +1,68 @@
+﻿body
+{
+}
+.currentUser
+{
+    border: thick none Gray;
+    background-color: Gray;
+}
+
+.statusPanel
+{
+    background-color: Gray;
+}
+
+.toolbar
+{
+    vertical-align: middle;
+    background-color: Green;
+}
+
+.toolbarButtonsContainer
+{
+    height: 100%;
+    display: block;
+    list-style-type: disc;
+    border-collapse: collapse;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: #BEBECD;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.toolbarButtonContainer_p
+{
+    display: table-cell;
+    list-style-type: none;
+    border-spacing: 0px;
+    cursor: auto;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #eee;
+    border-width: thin;
+    height:50px;
+    border-style: groove;
+    vertical-align: middle;
+}
+
+.toolbarButtonContainer_c
+{
+    display: table-cell;
+    border-width: thin;
+    height: 50px;
+    border-style: groove;
+    vertical-align: middle;
+}
+
+.toolbarButton
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.contentPlaceHolderContainer
+{
+    padding: 20px 40px 20px 40px;
+}

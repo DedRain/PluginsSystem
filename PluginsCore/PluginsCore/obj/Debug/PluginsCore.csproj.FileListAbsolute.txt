@@ -12,3 +12,15 @@ C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCor
 C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.CodeAnalysisLog.xml
 C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.lastcodeanalysissucceeded
 C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\PluginsCore\obj\Debug\PluginsCore.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.XML
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.CodeAnalysisLog.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.lastcodeanalysissucceeded
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\obj\Debug\PluginsCore.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\obj\Debug\PluginsCore.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\obj\Debug\PluginsCore.csprojResolveAssemblyReference.cache
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll.config
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\EntityFramework.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\EntityFramework.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsCore\bin\Debug\ru\EntityFramework.resources.dll

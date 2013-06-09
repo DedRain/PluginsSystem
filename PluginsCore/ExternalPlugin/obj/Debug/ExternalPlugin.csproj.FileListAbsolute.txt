@@ -5,11 +5,29 @@ c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalP
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.dll
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.pdb
 C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.csprojResolveAssemblyReference.cache
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\obj\Debug\ResolveAssemblyReference.cache
 D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.dll
 D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.pdb
 D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\ExternalPlugin.dll
 D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\ExternalPlugin.pdb
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\PluginsCore.dll
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\PluginsCore.pdb
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\PluginsCore.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\PluginsSystem.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\EntityFramework.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\System.Web.Optimization.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.AspNet.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\WebGrease.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.OAuth.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.Core.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.OpenId.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\Antlr3.Runtime.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\PluginsSystem.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\EntityFramework.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.AspNet.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.OAuth.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.Core.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\DotNetOpenAuth.OpenId.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\ru\EntityFramework.resources.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.csprojResolveAssemblyReference.cache

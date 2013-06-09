@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище PluginsSystemModelContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="DBLogs">
+      <EntityTypeMapping TypeName="PluginsSystemModel.DBLog">
+        <MappingFragment StoreEntitySet="DBLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="StackTrace" ColumnName="StackTrace" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Scope" ColumnName="Scope" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DBPlugins">
+      <EntityTypeMapping TypeName="PluginsSystemModel.DBPlugin">
+        <MappingFragment StoreEntitySet="DBPlugins">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AssemblyInfo" ColumnName="AssemblyInfo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DBUsers">
+      <EntityTypeMapping TypeName="PluginsSystemModel.DBUser">
+        <MappingFragment StoreEntitySet="DBUsers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DBUsersPermisions">
+      <EntityTypeMapping TypeName="PluginsSystemModel.DBUsersPermision">
+        <MappingFragment StoreEntitySet="DBUsersPermisions">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="PluginID" ColumnName="PluginID" />
+          <ScalarProperty Name="Premissions" ColumnName="Premissions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

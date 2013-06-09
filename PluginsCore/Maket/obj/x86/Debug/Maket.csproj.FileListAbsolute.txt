@@ -1,9 +1,0 @@
-C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\bin\Debug\Maket.exe
-C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\bin\Debug\Maket.pdb
-C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.Form1.resources
-C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.Properties.Resources.resources
-C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.csproj.GenerateResource.Cache
-C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.exe
-C:\Dev\Diplom\Studens_Testing_System\Server\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.pdb
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.exe
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\Maket\obj\x86\Debug\Maket.pdb

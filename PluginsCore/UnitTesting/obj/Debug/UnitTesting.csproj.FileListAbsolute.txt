@@ -6,11 +6,29 @@ c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesti
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\PluginsCore.pdb
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\OrderedTest1.orderedtest
 c:\users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\UnitTesting\bin\Debug\PluginsCore.dll
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\PluginsCore.dll
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\PluginsCore.pdb
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\PluginsCore.xml
-D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\obj\Debug\ResolveAssemblyReference.cache
 D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\obj\Debug\UnitTesting.dll
 D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\obj\Debug\UnitTesting.pdb
 D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\UnitTesting.dll
 D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\UnitTesting.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\obj\Debug\UnitTesting.csprojResolveAssemblyReference.cache
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\PluginsSystem.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\EntityFramework.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\System.Web.Optimization.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.AspNet.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\WebGrease.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.OAuth.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.Core.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.OpenId.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\Antlr3.Runtime.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\PluginsSystem.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\EntityFramework.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.AspNet.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.OAuth.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.Core.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\DotNetOpenAuth.OpenId.xml
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\UnitTesting\bin\Debug\ru\EntityFramework.resources.dll

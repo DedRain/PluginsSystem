@@ -5,6 +5,9 @@ using System.Text;
 
 namespace PluginsCore
 {
+    /// <summary>
+    /// Метаданные о плагине и сборке
+    /// </summary>
     public interface IPluginMetadata
     {
         /// <summary>
@@ -35,9 +38,9 @@ namespace PluginsCore
         }
 
         /// <summary>
-        /// Идентификационный ключ сборки
+        /// ID плагина
         /// </summary>
-        string AssemblyKey
+        Guid PluginID
         {
             get;
             set;
@@ -47,15 +50,6 @@ namespace PluginsCore
         /// Тип плагина
         /// </summary>
         PluginType PluginType
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Данные передаваемые при подключении
-        /// </summary>
-        object ThroughData
         {
             get;
             set;

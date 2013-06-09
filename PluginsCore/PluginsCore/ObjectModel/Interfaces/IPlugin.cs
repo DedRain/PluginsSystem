@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using PluginsCore.MEFComponents;
 using System.Reflection;
+using System.Runtime.Serialization;
 
 namespace PluginsCore
 {
@@ -12,6 +13,22 @@ namespace PluginsCore
     /// </summary>
     public interface IPlugin
     {
+        /// <summary>
+        /// ID типа плагина
+        /// </summary>
+        Guid ID
+        {
+            get;
+        }
+
+        /// <summary>
+        /// Имя плагина
+        /// </summary>
+        string Name
+        {
+            get;
+        }
+
         /// <summary>
         /// Тип плагина
         /// </summary>
@@ -31,6 +48,15 @@ namespace PluginsCore
         }
 
         /// <summary>
+        /// Данные внутри плагина
+        /// </summary>
+        dynamic Data
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
         /// Инициализация экземпляра
         /// </summary>
         void Initialize();
@@ -40,6 +66,6 @@ namespace PluginsCore
         /// </summary>
         /// <param name="data">Данные для обработки</param>
         /// <returns>Обработанные данные</returns>
-        object DataProcessing(object data);
+        dynamic DataProcessing(dynamic data);
     }
 }

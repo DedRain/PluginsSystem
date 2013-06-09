@@ -11,10 +11,19 @@ using System.IO;
 namespace PluginsCore
 {
     /// <summary>
-    /// Класс - контейнер предоставляющий коллекцию плагинов
+    /// Singleton Класс - контейнер предоставляющий коллекцию плагинов
     /// </summary>
-    public class PluginsContainer
+    public sealed class PluginsContainer
     {
+        private static readonly PluginsContainer _Instance = new PluginsContainer();
+        public static PluginsContainer Instance
+        {
+            get
+            {
+                return _Instance;
+            }
+        }
+
         private bool __init_PluginsCatalog;
         private AggregateCatalog _PluginsCatalog;
         /// <summary>
@@ -69,14 +78,34 @@ namespace PluginsCore
             }
         }
 
-        private Dictionary<string, IPlugin> _PluginsMap;
+        private bool __init_PluginsMap;
+        private Dictionary<Guid, PluginObject> _PluginsMap;
         /// <summary>
         /// Карта плагинов
         /// </summary>
-        public Dictionary<string, IPlugin> PluginsMap
+        public Dictionary<Guid, PluginObject> PluginsMap
         {
-            get { return _PluginsMap; }
-            set { _PluginsMap = value; }
+            get
+            {
+                if (!__init_PluginsMap)
+                {
+                    this._PluginsMap = new Dictionary<Guid, PluginObject>();
+
+                    foreach (Lazy<IPlugin> plugin in Plugins)
+                    {
+                        PluginObject pluginObj = new PluginObject(plugin.Value);
+                        if (!_PluginsMap.ContainsKey(plugin.Value.ID) && pluginObj.Active)
+                            _PluginsMap.Add(plugin.Value.ID, pluginObj);
+                    }
+                    __init_PluginsMap = true;
+                }
+                return _PluginsMap;
+            }
+            private set
+            {
+                _PluginsMap = value;
+                __init_PluginsMap = true;
+            }
         }
 
         private bool __init_Plugins;
@@ -85,24 +114,25 @@ namespace PluginsCore
         /// <summary>
         /// Коллекция плагинов
         /// </summary>
-        public IEnumerable<Lazy<IPlugin>> Plugins
+        protected IEnumerable<Lazy<IPlugin>> Plugins
         {
             get
             {
                 if (!__init_Plugins)
                 {
                     Composer.ComposeParts(this);
-                    this._PluginsMap = new Dictionary<string, IPlugin>();
-
-                    foreach (Lazy<IPlugin> plugin in _Plugins)
-                    {
-                        if (!PluginsMap.ContainsKey(plugin.Value.PluginAssembly.FullName))
-                            PluginsMap.Add(plugin.Value.PluginAssembly.FullName, plugin.Value);
-                    }
                     __init_Plugins = true;
                 }
                 return _Plugins;
             }
+        }
+
+        static PluginsContainer()
+        {
+        }
+
+        PluginsContainer()
+        {
         }
 
         /// <summary>

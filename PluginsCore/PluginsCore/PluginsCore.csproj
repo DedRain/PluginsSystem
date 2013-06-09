@@ -12,6 +12,8 @@
     <AssemblyName>PluginsCore</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,15 +36,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <DelaySign>false</DelaySign>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>MySign.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,10 +67,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ObjectModel\GUI\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObjectModel\GUI\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectModel\GUI\Global.Master.cs">
+      <DependentUpon>Global.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObjectModel\GUI\Global.Master.designer.cs">
+      <DependentUpon>Global.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectModel\GUI\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObjectModel\GUI\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectModel\GUI\Main.master.cs">
+      <DependentUpon>Main.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObjectModel\GUI\Main.master.designer.cs">
+      <DependentUpon>Main.master</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectModel\Interfaces\IPluginMetadata.cs" />
+    <Compile Include="ObjectModel\JSON\DataSerializer.cs" />
+    <Compile Include="ObjectModel\JSON\PluginJSON.cs" />
     <Compile Include="ObjectModel\Logger\Logger.cs" />
     <Compile Include="ObjectModel\MEFComponents\IPluginImportAttribute.cs" />
     <Compile Include="ObjectModel\MEFComponents\IPluginExportAttribute.cs" />
     <Compile Include="ObjectModel\Interfaces\IPlugin.cs" />
+    <Compile Include="ObjectModel\PluginObject.cs" />
     <Compile Include="ObjectModel\Settings\Settings.cs" />
     <Compile Include="ObjectModel\Settings\ValidationResult.cs" />
     <Compile Include="PluginsContainer.cs" />
@@ -62,11 +111,43 @@
     <Compile Include="_Consts.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\Debug\Plugins\" />
     <Folder Include="ObjectModel\Database\" />
-    <Folder Include="ObjectModel\GUI\" />
+    <Folder Include="ObjectModel\GUI\Security\" />
     <Folder Include="ObjectModel\Security\" />
     <Folder Include="ObjectModel\UpdatingSystem\" />
-    <Folder Include="Plugins\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ObjectModel\GUI\Css\Entrance.css" />
+    <Content Include="ObjectModel\GUI\Css\MasterPage.css" />
+    <Content Include="ObjectModel\GUI\Css\PluginsControl.css" />
+    <Content Include="ObjectModel\GUI\Css\superTables.css" />
+    <Content Include="ObjectModel\GUI\Default.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ObjectModel\GUI\Main.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ObjectModel\GUI\PluginsTableControl\superTables.js" />
+    <Content Include="ObjectModel\GUI\Scripts\Global.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ObjectModel\GUI\Global.Master">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ObjectModel\GUI\Main.master">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="MySign.pfx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

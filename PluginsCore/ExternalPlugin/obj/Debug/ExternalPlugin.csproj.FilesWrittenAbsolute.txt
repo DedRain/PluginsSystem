@@ -1,0 +1,3 @@
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\obj\Debug\ExternalPlugin.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\ExternalPlugin.dll.mdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\ExternalPlugin\bin\Debug\ExternalPlugin.dll

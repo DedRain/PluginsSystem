@@ -4,71 +4,69 @@
         <name>PluginsCore</name>
     </assembly>
     <members>
-        <member name="T:PluginsCore.ValidationResult">
+        <member name="F:PluginsCore.GUI.Global.head">
             <summary>
-            Результат применения настроек
+            head control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PluginsCore.GUI.Global.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PluginsCore.GUI.Global.ContentPlaceHolder1">
+            <summary>
+            ContentPlaceHolder1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:PluginsCore.IPluginMetadata">
+            <summary>
+            Метаданные о плагине и сборке
             </summary>
         </member>
-        <member name="P:PluginsCore.ValidationResult.Result">
+        <member name="P:PluginsCore.IPluginMetadata.Author">
             <summary>
-            Результат
+            Автор плагина
             </summary>
         </member>
-        <member name="P:PluginsCore.ValidationResult.Message">
+        <member name="P:PluginsCore.IPluginMetadata.AssemblyName">
             <summary>
-            Информация об ошибках
+            Название сборки
             </summary>
         </member>
-        <member name="T:PluginsCore.PluginType">
+        <member name="P:PluginsCore.IPluginMetadata.AssemblyVersion">
+            <summary>
+            Версия сборки
+            </summary>
+        </member>
+        <member name="P:PluginsCore.IPluginMetadata.PluginID">
+            <summary>
+            ID плагина
+            </summary>
+        </member>
+        <member name="P:PluginsCore.IPluginMetadata.PluginType">
             <summary>
             Тип плагина
             </summary>
         </member>
-        <member name="F:PluginsCore.PluginType.ILoggerPlugin">
+        <member name="M:PluginsCore.JSON.DataSerializer.GetInstanceJSON``1(System.String)">
             <summary>
-            Плагин для логирования
+            Создает объект из строки XML.
             </summary>
-        </member>
-        <member name="F:PluginsCore.PluginType.IDatabasePlugin">
-            <summary>
-            Плагин работы с базой данных
-            </summary>
-        </member>
-        <member name="F:PluginsCore.PluginType.ISecurityPlugin">
-            <summary>
-            Плагин безопасности
-            </summary>
-        </member>
-        <member name="F:PluginsCore.PluginType.ISettingsPlugin">
-            <summary>
-            Плагин настроек
-            </summary>
-        </member>
-        <member name="F:PluginsCore.PluginType.IGUIPlugin">
-            <summary>
-            Плагин пользовательского интерфейса
-            </summary>
-        </member>
-        <member name="F:PluginsCore.PluginType.ICustomPlugin">
-            <summary>
-            Пользовательский плагин
-            </summary>
-        </member>
-        <member name="T:PluginsCore._Consts">
-            <summary>
-            Контейнер констант
-            </summary>
-        </member>
-        <member name="T:PluginsCore.MEFComponents.IPluginExportAttribute">
-            <summary>
-            Аттрибут экспорта плагина
-            </summary>
-        </member>
-        <member name="M:PluginsCore.MEFComponents.IPluginExportAttribute.#ctor(System.Type)">
-            <summary>
-            Конструктор
-            </summary>
-            <param name="type">Тип интерфейса который реализует плагин</param>
+            <param name="text">Строка XML, в которой описаны свойства объекта.</param>
+            <returns></returns>
         </member>
         <member name="T:PluginsCore.Logger.Logger">
             <summary>
@@ -87,41 +85,89 @@
             </summary>
             <param name="ex">Ошибка</param>
         </member>
-        <member name="T:PluginsCore.PluginsContainer">
+        <member name="T:PluginsCore.MEFComponents.IPluginImportAttribute">
             <summary>
-            Класс - контейнер предоставляющий коллекцию плагинов
+            Аттрибут импорта плагина
             </summary>
         </member>
-        <member name="M:PluginsCore.PluginsContainer.GetPlugin``1(PluginsCore.PluginType)">
+        <member name="M:PluginsCore.MEFComponents.IPluginImportAttribute.#ctor(System.Type)">
             <summary>
-            Возвращает плагины соответствующего типа
+            Конструктор
             </summary>
-            <param name="pluginType"></param>
-            <returns></returns>
+            <param name="type">Тип интерфейса который реализует плагин</param>
         </member>
-        <member name="M:PluginsCore.PluginsContainer.Recompose">
+        <member name="T:PluginsCore.MEFComponents.IPluginExportAttribute">
             <summary>
-            Обновление подключенных плагинов
-            </summary>
-        </member>
-        <member name="P:PluginsCore.PluginsContainer.PluginsCatalog">
-            <summary>
-            Текущий каталог плагинов
+            Аттрибут экспорта плагина
             </summary>
         </member>
-        <member name="P:PluginsCore.PluginsContainer.Composer">
+        <member name="M:PluginsCore.MEFComponents.IPluginExportAttribute.#ctor(System.Type)">
             <summary>
-            MEF - компонент
+            Конструктор
+            </summary>
+            <param name="type">Тип интерфейса который реализует плагин</param>
+        </member>
+        <member name="T:PluginsCore.IPlugin">
+            <summary>
+            Плагин
             </summary>
         </member>
-        <member name="P:PluginsCore.PluginsContainer.PluginsMap">
+        <member name="M:PluginsCore.IPlugin.Initialize">
             <summary>
-            Карта плагинов
+            Инициализация экземпляра
             </summary>
         </member>
-        <member name="P:PluginsCore.PluginsContainer.Plugins">
+        <member name="M:PluginsCore.IPlugin.DataProcessing(System.Object)">
             <summary>
-            Коллекция плагинов
+            Обработка данных
+            </summary>
+            <param name="data">Данные для обработки</param>
+            <returns>Обработанные данные</returns>
+        </member>
+        <member name="P:PluginsCore.IPlugin.ID">
+            <summary>
+            ID типа плагина
+            </summary>
+        </member>
+        <member name="P:PluginsCore.IPlugin.Name">
+            <summary>
+            Имя плагина
+            </summary>
+        </member>
+        <member name="P:PluginsCore.IPlugin.PluginType">
+            <summary>
+            Тип плагина
+            </summary>
+        </member>
+        <member name="P:PluginsCore.IPlugin.PluginAssembly">
+            <summary>
+            Сборка плагина
+            </summary>
+        </member>
+        <member name="P:PluginsCore.IPlugin.Data">
+            <summary>
+            Данные внутри плагина
+            </summary>
+        </member>
+        <member name="T:PluginsCore.PluginObject">
+            <summary>
+            Обертка над Lazy[IPlugin]
+            </summary>
+        </member>
+        <member name="M:PluginsCore.PluginObject.Activate">
+            <summary>
+            Активация плагина в базе
+            </summary>
+            <returns>Результат активации</returns>
+        </member>
+        <member name="P:PluginsCore.PluginObject.Active">
+            <summary>
+            Признак активности плагина
+            </summary>
+        </member>
+        <member name="P:PluginsCore.PluginObject.Plugin">
+            <summary>
+            Плагин
             </summary>
         </member>
         <member name="T:PluginsCore.Settings">
@@ -176,42 +222,96 @@
             Url сервера обновлений
             </summary>
         </member>
-        <member name="T:PluginsCore.MEFComponents.IPluginImportAttribute">
+        <member name="T:PluginsCore.ValidationResult">
             <summary>
-            Аттрибут импорта плагина
+            Результат применения настроек
             </summary>
         </member>
-        <member name="M:PluginsCore.MEFComponents.IPluginImportAttribute.#ctor(System.Type)">
+        <member name="P:PluginsCore.ValidationResult.Result">
             <summary>
-            Конструктор
-            </summary>
-            <param name="type">Тип интерфейса который реализует плагин</param>
-        </member>
-        <member name="T:PluginsCore.IPlugin">
-            <summary>
-            Плагин
+            Результат
             </summary>
         </member>
-        <member name="M:PluginsCore.IPlugin.Initialize">
+        <member name="P:PluginsCore.ValidationResult.Message">
             <summary>
-            Инициализация экземпляра
+            Информация об ошибках
             </summary>
         </member>
-        <member name="M:PluginsCore.IPlugin.DataProcessing(System.Object)">
+        <member name="T:PluginsCore.PluginsContainer">
             <summary>
-            Обработка данных
+            Singleton Класс - контейнер предоставляющий коллекцию плагинов
             </summary>
-            <param name="data">Данные для обработки</param>
-            <returns>Обработанные данные</returns>
         </member>
-        <member name="P:PluginsCore.IPlugin.PluginType">
+        <member name="M:PluginsCore.PluginsContainer.GetPlugin``1(PluginsCore.PluginType)">
+            <summary>
+            Возвращает плагины соответствующего типа
+            </summary>
+            <param name="pluginType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PluginsCore.PluginsContainer.Recompose">
+            <summary>
+            Обновление подключенных плагинов
+            </summary>
+        </member>
+        <member name="P:PluginsCore.PluginsContainer.PluginsCatalog">
+            <summary>
+            Текущий каталог плагинов
+            </summary>
+        </member>
+        <member name="P:PluginsCore.PluginsContainer.Composer">
+            <summary>
+            MEF - компонент
+            </summary>
+        </member>
+        <member name="P:PluginsCore.PluginsContainer.PluginsMap">
+            <summary>
+            Карта плагинов
+            </summary>
+        </member>
+        <member name="P:PluginsCore.PluginsContainer.Plugins">
+            <summary>
+            Коллекция плагинов
+            </summary>
+        </member>
+        <member name="T:PluginsCore.PluginType">
             <summary>
             Тип плагина
             </summary>
         </member>
-        <member name="P:PluginsCore.IPlugin.PluginAssembly">
+        <member name="F:PluginsCore.PluginType.ILoggerPlugin">
             <summary>
-            Сборка плагина
+            Плагин для логирования
+            </summary>
+        </member>
+        <member name="F:PluginsCore.PluginType.IDatabasePlugin">
+            <summary>
+            Плагин работы с базой данных
+            </summary>
+        </member>
+        <member name="F:PluginsCore.PluginType.ISecurityPlugin">
+            <summary>
+            Плагин безопасности
+            </summary>
+        </member>
+        <member name="F:PluginsCore.PluginType.ISettingsPlugin">
+            <summary>
+            Плагин настроек
+            </summary>
+        </member>
+        <member name="F:PluginsCore.PluginType.IGUIPlugin">
+            <summary>
+            Плагин пользовательского интерфейса
+            </summary>
+        </member>
+        <member name="F:PluginsCore.PluginType.ICustomPlugin">
+            <summary>
+            Пользовательский плагин
+            </summary>
+        </member>
+        <member name="T:PluginsCore._Consts">
+            <summary>
+            Контейнер констант
             </summary>
         </member>
     </members>
