@@ -1,0 +1,52 @@
+﻿body
+{
+}
+.pluginsTable
+{
+    border-style: outset;
+    border-collapse:collapse;
+    table-layout:fixed;
+}
+
+/*Заголовок*/
+.pluginsTableHeader td
+{
+    background-color: #C0C0C0;
+}
+.pluginsTableHeaderRow
+{
+    display:table-row;
+}
+.pluginsTableHeaderCell
+{
+    display: table-cell;
+    min-width:100px;
+}
+.pluginsTableCellCheckBox
+{
+    display: table-cell;
+    min-width:20px;
+}
+.pluginsTableCellCommon
+{
+    display: table-cell;
+    width:50%;
+	overflow:hidden;
+}
+
+/*Тело*/
+.pluginsTableBody
+{
+    background-color: #FFFFCC;
+    height: 400px;
+    width:100%;
+}
+.pluginsTableBodyRow
+{
+    cursor: pointer;
+    display: table-row;
+}
+.pluginsTableBodyCell
+{
+    display: table-cell;
+}

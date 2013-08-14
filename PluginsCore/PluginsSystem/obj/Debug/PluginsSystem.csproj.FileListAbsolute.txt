@@ -1,0 +1,4 @@
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsSystem\bin\PluginsSystem.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsSystem\bin\PluginsSystem.pdb
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsSystem\obj\Debug\PluginsSystem.dll
+D:\Dev\GitRepo\PluginsSystem\PluginsCore\PluginsSystem\obj\Debug\PluginsSystem.pdb

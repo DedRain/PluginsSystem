@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище PluginsSystemModel" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Хранилище PluginsSystemModelContainer">
+    <EntitySet Name="DBLogs" EntityType="Хранилище PluginsSystemModel.DBLogs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DBPlugins" EntityType="Хранилище PluginsSystemModel.DBPlugins" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DBUsers" EntityType="Хранилище PluginsSystemModel.DBUsers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DBUsersPermisions" EntityType="Хранилище PluginsSystemModel.DBUsersPermisions" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_UsersPermisions_Plugins" Association="Хранилище PluginsSystemModel.FK_UsersPermisions_Plugins">
+      <End Role="DBPlugins" EntitySet="DBPlugins" />
+      <End Role="DBUsersPermisions" EntitySet="DBUsersPermisions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersPermisions_Users" Association="Хранилище PluginsSystemModel.FK_UsersPermisions_Users">
+      <End Role="DBUsers" EntitySet="DBUsers" />
+      <End Role="DBUsersPermisions" EntitySet="DBUsersPermisions" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DBLogs">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Message" Type="ntext" Nullable="false" />
+    <Property Name="StackTrace" Type="ntext" Nullable="false" />
+    <Property Name="Time" Type="datetime" Nullable="false" />
+    <Property Name="Scope" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DBPlugins">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Owner" Type="uniqueidentifier" />
+    <Property Name="AssemblyInfo" Type="ntext" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DBUsers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Password" Type="ntext" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="500" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Role" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DBUsersPermisions">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PluginID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Premissions" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_UsersPermisions_Plugins">
+    <End Role="DBPlugins" Type="Хранилище PluginsSystemModel.DBPlugins" Multiplicity="1" />
+    <End Role="DBUsersPermisions" Type="Хранилище PluginsSystemModel.DBUsersPermisions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DBPlugins">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DBUsersPermisions">
+        <PropertyRef Name="PluginID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersPermisions_Users">
+    <End Role="DBUsers" Type="Хранилище PluginsSystemModel.DBUsers" Multiplicity="1" />
+    <End Role="DBUsersPermisions" Type="Хранилище PluginsSystemModel.DBUsersPermisions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DBUsers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DBUsersPermisions">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

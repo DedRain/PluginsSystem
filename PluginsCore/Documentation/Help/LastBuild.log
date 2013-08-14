@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.5.0" projectFile="C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Documentation.shfbproj" started="11.03.2013 18:53:44">
+<buildStep step="Initializing">
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
+<buildStep step="FindingTools">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\PluginsCore.csproj
+    Found project &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\PluginsCore.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.dll&#39;
+
+References to include (excluding framework assemblies):
+    None
+
+Copying XML comments files
+    C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\PluginsCore\bin\Debug\PluginsCore.XML -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PluginsCore.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Info: Wrote information on 3 namespaces, 9 types, and 33 members
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:01.0070
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    4 attribute nodes removed
+    0 explicit interface implementations removed
+    8 local and base class EII elements removed
+    Last step completed in 00:00:00.1470
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:00.6480
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    No changes required
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\adm.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\adm.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\adm_arch.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\adm_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\adm_dev.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\adm_dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\adm_dev_arch.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\alert_caution.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\alert_note.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\alert_security.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\arch.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\big_adm.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\big_adm.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\big_arch.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\big_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\big_dev.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\big_dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\big_kw.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\big_kw.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\box.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\box.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\Caution.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\Caution.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\CFW.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\collall.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\collall.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\collapse.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\collapse.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\collapse_all.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\collapse_all.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\copycode.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\copycode.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\copycodeHighlight.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\copycodeHighlight.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\dev.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\dev_arch.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\dev_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\dropdown.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\dropdown.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\dropdownHover.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\dropdownHover.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\drpdown.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\drpdown.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\drpdown_orange.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\drpdown_orange.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\drpdown_orange_up.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\drpdown_orange_up.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\drpup.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\drpup.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\exp.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\exp.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\expall.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\expall.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\expand_all.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\expand_all.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\filter1a.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\filter1a.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\filter1c.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\filter1c.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\footer.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\footer.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\gradient.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\gradient.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\greencheck.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\greencheck.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\greychck.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\greychck.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\header_prev_next.jpg -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\header_prev_next.jpg
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_blank.jpg -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_blank.jpg
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_logo.GIF -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_logo.GIF
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\kw.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_adm.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_adm_arch.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_adm_dev.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_adm_dev_arch.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_arch.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_dev.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_dev_arch.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\LastChild.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\LastChild.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\load.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\load.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\load_hover.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\load_hover.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\note.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\note.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pencil.GIF -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privclass.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privdelegate.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privenum.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privenum.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privenumeration.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privevent.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privextension.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privfield.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privinterface.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privmethod.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privproperty.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privstructure.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protclass.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protdelegate.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protenum.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protenum.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protenumeration.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protevent.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protextension.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protfield.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protinterface.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protmethod.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protoperator.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protproperty.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protstructure.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubclass.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubdelegate.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubenum.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubenum.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubenumeration.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubevent.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubextension.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubfield.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubinterface.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubmethod.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\puboperator.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubproperty.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubstructure.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\requirements1a.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\requirements1a.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\requirements1c.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\requirements1c.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\save.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\save.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\save_hover.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\save_hover.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\security.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\security.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\seealso1a.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\seealso1a.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\seealso1c.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\seealso1c.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\slMobile.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\static.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\xna.gif -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\CheckboxMenu.js -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\scripts\CheckboxMenu.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\CommonUtilities.js -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\scripts\CommonUtilities.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\Dropdown.js -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\scripts\Dropdown.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\EventUtilities.js -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\scripts\EventUtilities.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_feedBack.js -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\scripts\script_feedBack.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\scripts\script_manifold.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\scripts\SplitScreen.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\styles\Presentation.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\Presentation.css -&gt; C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\styles\Whidbey\Presentation.css
+    Last step completed in 00:00:00.0540
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.2040
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.0990
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: CopyFromFileComponent: Instantiating component.
+  Info: CopyFromFileComponent: Loading data file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\Transforms\skeleton.xml&#39;.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
+  Info: CopyFromIndexComponent: Indexed 193889 elements in 410 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: SyntaxComponent: Instantiating component.
+  Info: SyntaxComponent: Loaded 3 syntax generators.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\2.0\Runtime\v4.0&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PluginsCore.XML&#39;.
+  Info: CopyFromIndexComponent: Indexed 146299 elements in 129 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 2 subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ShowMissingComponent: Instantiating component.
+  Info: ShowMissingComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Show Missing Documentation Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: VersionInfoComponent: Instantiating component.
+  Info: VersionInfoComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Version Information Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: CodeBlockComponent: Instantiating component.
+  Info: CodeBlockComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Code Block Component.  Copyright c 2006-2012, Eric Woodruff, All Rights Reserved.
+      Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+      http://SHFB.CodePlex.com
+  Info: TransformComponent: Instantiating component.
+  Info: PostTransformComponent: Instantiating component.
+  Info: PostTransformComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Post-Transform Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Multi-Format Output Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Loading components for HtmlHelp1 format
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locationinformation&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;assemblynameandmodule&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locale&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_send&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_headerfeedback&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_alias&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_product&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_body&#39; with value in file &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+  Info: SharedContentComponent: Loaded 641 shared content items.
+  Info: ResolveConceptualLinksComponent: Instantiating component.
+  Info: ResolveConceptualLinksComponent: Collected 1 targets directories.
+  Info: ResolveReferenceLinksComponent2: Instantiating component.
+  Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 193889 reference targets.
+  Info: SaveComponent: Instantiating component.
+  Info: BuildAssembler: Building topic N:PluginsCore
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:PluginsCore
+  Info: BuildAssembler: Building topic T:PluginsCore._Consts
+  Info: BuildAssembler: Building topic AllMembers.T:PluginsCore._Consts
+  Info: ShowMissingComponent: Auto-documenting constructor M:PluginsCore._Consts.#ctor
+  Info: BuildAssembler: Building topic Methods.T:PluginsCore._Consts
+  Info: BuildAssembler: Building topic M:PluginsCore._Consts.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:PluginsCore._Consts.#ctor
+  Info: BuildAssembler: Building topic T:PluginsCore.IPlugin
+  Info: BuildAssembler: Building topic AllMembers.T:PluginsCore.IPlugin
+  Info: BuildAssembler: Building topic Methods.T:PluginsCore.IPlugin
+  Info: BuildAssembler: Building topic Properties.T:PluginsCore.IPlugin
+  Info: BuildAssembler: Building topic M:PluginsCore.IPlugin.DataProcessing(System.Object)
+  Info: BuildAssembler: Building topic M:PluginsCore.IPlugin.Initialize
+  Info: BuildAssembler: Building topic P:PluginsCore.IPlugin.PluginAssembly
+  Info: BuildAssembler: Building topic P:PluginsCore.IPlugin.PluginType
+  Info: BuildAssembler: Building topic T:PluginsCore.PluginsContainer
+  Info: BuildAssembler: Building topic AllMembers.T:PluginsCore.PluginsContainer
+  Info: ShowMissingComponent: Auto-documenting constructor M:PluginsCore.PluginsContainer.#ctor
+  Info: BuildAssembler: Building topic Methods.T:PluginsCore.PluginsContainer
+  Info: BuildAssembler: Building topic Properties.T:PluginsCore.PluginsContainer
+  Info: BuildAssembler: Building topic M:PluginsCore.PluginsContainer.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:PluginsCore.PluginsContainer.#ctor
+  Info: BuildAssembler: Building topic P:PluginsCore.PluginsContainer.Composer
+  Info: BuildAssembler: Building topic M:PluginsCore.PluginsContainer.GetPlugins(PluginsCore.PluginType)
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:PluginsCore.PluginsContainer.GetPlugins(PluginsCore.PluginType)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;pluginType&quot;/&gt; documentation for M:PluginsCore.PluginsContainer.GetPlugins(PluginsCore.PluginType)
+  Info: BuildAssembler: Building topic P:PluginsCore.PluginsContainer.Plugins
+  Info: BuildAssembler: Building topic P:PluginsCore.PluginsContainer.PluginsCatalog
+  Info: BuildAssembler: Building topic P:PluginsCore.PluginsContainer.PluginsMap
+  Info: BuildAssembler: Building topic M:PluginsCore.PluginsContainer.Recompose
+  Info: BuildAssembler: Building topic T:PluginsCore.PluginType
+  Info: BuildAssembler: Building topic T:PluginsCore.Settings
+  Info: BuildAssembler: Building topic AllMembers.T:PluginsCore.Settings
+  Info: BuildAssembler: Building topic Methods.T:PluginsCore.Settings
+  Info: BuildAssembler: Building topic Properties.T:PluginsCore.Settings
+  Info: BuildAssembler: Building topic M:PluginsCore.Settings.Apply
+  Info: BuildAssembler: Building topic P:PluginsCore.Settings.ConnectionString
+  Info: BuildAssembler: Building topic P:PluginsCore.Settings.LastUpdate
+  Info: BuildAssembler: Building topic M:PluginsCore.Settings.Load
+  Info: BuildAssembler: Building topic P:PluginsCore.Settings.PluginsDirectory
+  Info: BuildAssembler: Building topic M:PluginsCore.Settings.ResetToDefault
+  Info: BuildAssembler: Building topic M:PluginsCore.Settings.Save
+  Info: BuildAssembler: Building topic M:PluginsCore.Settings.Update(PluginsCore.IPlugin)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;plugin&quot;/&gt; documentation for M:PluginsCore.Settings.Update(PluginsCore.IPlugin)
+  Info: BuildAssembler: Building topic P:PluginsCore.Settings.UpdateServer
+  Info: BuildAssembler: Building topic T:PluginsCore.ValidationResult
+  Info: BuildAssembler: Building topic AllMembers.T:PluginsCore.ValidationResult
+  Info: BuildAssembler: Building topic Methods.T:PluginsCore.ValidationResult
+  Info: BuildAssembler: Building topic Properties.T:PluginsCore.ValidationResult
+  Info: BuildAssembler: Building topic P:PluginsCore.ValidationResult.Message
+  Info: BuildAssembler: Building topic P:PluginsCore.ValidationResult.Result
+  Info: BuildAssembler: Building topic N:PluginsCore.Logger
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:PluginsCore.Logger
+  Info: BuildAssembler: Building topic T:PluginsCore.Logger.Logger
+  Info: BuildAssembler: Building topic AllMembers.T:PluginsCore.Logger.Logger
+  Info: BuildAssembler: Building topic Methods.T:PluginsCore.Logger.Logger
+  Info: BuildAssembler: Building topic M:PluginsCore.Logger.Logger.HandleEvent(System.String)
+  Info: BuildAssembler: Building topic M:PluginsCore.Logger.Logger.HandleException(System.Exception)
+  Info: BuildAssembler: Building topic N:PluginsCore.MEFComponents
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:PluginsCore.MEFComponents
+  Info: BuildAssembler: Building topic T:PluginsCore.MEFComponents.IPluginExportAttribute
+  Info: BuildAssembler: Building topic AllMembers.T:PluginsCore.MEFComponents.IPluginExportAttribute
+  Info: BuildAssembler: Building topic Methods.T:PluginsCore.MEFComponents.IPluginExportAttribute
+  Info: BuildAssembler: Building topic Properties.T:PluginsCore.MEFComponents.IPluginExportAttribute
+  Info: BuildAssembler: Building topic M:PluginsCore.MEFComponents.IPluginExportAttribute.#ctor(System.Type)
+  Info: BuildAssembler: Building topic T:PluginsCore.MEFComponents.IPluginImportAttribute
+  Info: BuildAssembler: Building topic AllMembers.T:PluginsCore.MEFComponents.IPluginImportAttribute
+  Info: BuildAssembler: Building topic Methods.T:PluginsCore.MEFComponents.IPluginImportAttribute
+  Info: BuildAssembler: Building topic Properties.T:PluginsCore.MEFComponents.IPluginImportAttribute
+  Info: BuildAssembler: Building topic M:PluginsCore.MEFComponents.IPluginImportAttribute.#ctor(System.Type)
+  Info: Processed 61 topics
+    Last step completed in 00:00:52.8310
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.5.0
+Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1
+Processed 61 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Documentation.hhc
+    Last step completed in 00:00:00.1870
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 3 seconds
+  
+  63	Topics
+  
+  724	Local links
+  
+  316	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\adushelubov\documents\visual studio 2010\Projects\PluginsCore\Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm, 160,263 bytes
+  
+  Compression decreased file by 746,683 bytes.
+  
+    Last step completed in 00:00:03.8220
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0360
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 03.11.2013 06:54 .  Total time: 00:00:59,2850
+
+</buildStep>
+</shfbBuild>

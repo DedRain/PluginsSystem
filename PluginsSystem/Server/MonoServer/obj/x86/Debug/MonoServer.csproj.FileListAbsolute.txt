@@ -1,5 +1,0 @@
-D:\Dev\Diplom\Studens_Testing_System\Server\MonoServer\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Dev\Diplom\Studens_Testing_System\Server\MonoServer\bin\Debug\MonoServer.exe
-D:\Dev\Diplom\Studens_Testing_System\Server\MonoServer\bin\Debug\MonoServer.pdb
-D:\Dev\Diplom\Studens_Testing_System\Server\MonoServer\obj\x86\Debug\MonoServer.exe
-D:\Dev\Diplom\Studens_Testing_System\Server\MonoServer\obj\x86\Debug\MonoServer.pdb

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="87657df131b64715adf25b0807d0e30d" Name="Диаграмма1">
+        <EntityTypeShape EntityType="PluginsSystemModel.DBLog" Width="1.5" PointX="11.875" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PluginsSystemModel.DBPlugin" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PluginsSystemModel.DBUser" Width="2.875" PointX="6.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PluginsSystemModel.DBUsersPermision" Width="1.5" PointX="4" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="PluginsSystemModel.FK_UsersPermisions_Plugins" ManuallyRouted="false" />
+        <AssociationConnector Association="PluginsSystemModel.FK_UsersPermisions_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
