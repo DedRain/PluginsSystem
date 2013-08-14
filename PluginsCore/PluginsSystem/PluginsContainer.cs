@@ -131,7 +131,7 @@ namespace PluginsCore
                             if (existingDBPlugin == null)
                                 DBContext.DBPlugins.Add(newDBPlugin);
                             else
-                            {
+                            {m
                                 existingDBPlugin.ID = newDBPlugin.ID;
                                 existingDBPlugin.Name = newDBPlugin.Name;
                                 existingDBPlugin.AssemblyInfo = newDBPlugin.AssemblyInfo;
